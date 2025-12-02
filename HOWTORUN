@@ -1,0 +1,8 @@
+python superlab_cleaner.py --indir "C:\Users\Bodhi\PilotData" --outcsv "C:\Users\Bodhi\out\final_cleaned.csv"
+in power shell to make cleaned.csv
+then
+python split_cleaned.py --csv "C:\Users\Bodhi\out\final_cleaned.csv" --outdir "C:\Users\Bodhi\out\splits"
+this for the split_cleaned to split it to the three variables
+for the three models just
+  python "program name here".py
+  python SVM.py for example
